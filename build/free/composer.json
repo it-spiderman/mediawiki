@@ -14,13 +14,39 @@
         "composer/installers": "~1.0"
       }
     }
+  },  {
+    "type": "package",
+    "package": {
+      "name": "mediawiki/blue-spice-distribution-connector",
+    	"type": "mediawiki-extension",
+
+      "version": "dev-4cb3053",
+    	"require": {
+    		"composer/installers": "~1.0"
+    	},
+      "source": {
+        "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceDistributionConnector.git",
+        "type": "git",
+        "reference": "4cb3053"
+      }
+    }
   }, {
-    "type": "vcs",
-    "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceDistributionConnector.git"
-  }, {
-    "type": "vcs",
-    "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceEchoConnector.git"
-  }, {
+    "type": "package",
+    "package": {
+      "name": "mediawiki/blue-spice-echo-connector",
+    	"type": "mediawiki-extension",
+
+      "version": "dev-f87bc47",
+    	"require": {
+    		"composer/installers": "~1.0"
+    	},
+      "source": {
+        "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceEchoConnector.git",
+        "type": "git",
+        "reference": "f87bc47"
+      }
+    }
+  },{
     "type": "package",
     "package": {
       "name": "mediawiki/blue-spice-edit-notify-connector",
@@ -37,17 +63,65 @@
       }
     }
   }, {
-    "type": "vcs",
-    "url": "https://github.com/wikimedia/mediawiki-extensions-BlueSpiceExtensions"
+    "type": "package",
+    "package": {
+      "name": "mediawiki/blue-spice-extensions",
+      "type": "mediawiki-extension",
+      "version": "dev-7f907db",
+      "source": {
+        "url": "https://github.com/wikimedia/mediawiki-extensions-BlueSpiceExtensions",
+        "type": "git",
+        "reference": "7f907db"
+      },
+      "require": {
+        "composer/installers": "~1.0"
+      }
+    }
   }, {
-    "type": "vcs",
-    "url": "https://github.com/wikimedia/mediawiki-extensions-BlueSpiceFoundation"
+    "type": "package",
+    "package": {
+      "name": "mediawiki/blue-spice-foundation",
+      "type": "mediawiki-extension",
+      "version": "dev-92a5e1e",
+      "source": {
+        "url": "https://github.com/wikimedia/mediawiki-extensions-BlueSpiceFoundation",
+        "type": "git",
+        "reference": "92a5e1e"
+      },
+      "require": {
+        "composer/installers": "~1.0"
+      }
+    }
   }, {
-    "type": "vcs",
-    "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceLdapAuthenticationConnector.git"
-  }, {
-    "type": "vcs",
-    "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceUserMergeConnector.git"
+    "type": "package",
+    "package": {
+      "name": "mediawiki/blue-spice-ldap-authentication-connector",
+      "type": "mediawiki-extension",
+      "version": "dev-37cd2ec",
+      "source": {
+        "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceLdapAuthenticationConnector.git",
+        "type": "git",
+        "reference": "37cd2ec"
+      },
+      "require": {
+        "composer/installers": "~1.0"
+      }
+    }
+  },{
+    "type": "package",
+    "package": {
+      "name": "mediawiki/blue-spice-user-merge-connector",
+      "type": "mediawiki-extension",
+      "version": "dev-3b9b1d0",
+      "source": {
+        "url": "https://github.com/hallowelt/mediawiki-extensions-BlueSpiceUserMergeConnector.git",
+        "type": "git",
+        "reference": "3b9b1d0"
+      },
+      "require": {
+        "composer/installers": "~1.0"
+      }
+    }
   }, {
     "type": "package",
     "package": {
@@ -415,12 +489,12 @@
   }],
   "require": {
     "mediawiki/arrays": "dev-ead7f94",
-    "mediawiki/blue-spice-distribution-connector": "dev-REL1_27",
-    "mediawiki/blue-spice-echo-connector": "dev-REL1_27",
+    "mediawiki/blue-spice-distribution-connector": "dev-4cb3053",
+    "mediawiki/blue-spice-echo-connector": "dev-f87bc47",
     "mediawiki/blue-spice-edit-notify-connector": "dev-f310c14",
-    "hallowelt/blue-spice-extensions": "dev-REL1_27",
-    "hallowelt/blue-spice-foundation": "dev-REL1_27",
-    "mediawiki/blue-spice-ldap-authentication-connector": "dev-REL1_27",
+    "mediawiki/blue-spice-extensions": "dev-7f907db",
+    "mediawiki/blue-spice-foundation": "dev-92a5e1e",
+    "mediawiki/blue-spice-ldap-authentication-connector": "dev-37cd2ec",
     "mediawiki/blue-spice-user-merge-connector": "dev-REL1_27",
     "mediawiki/category-tree": "dev-b454f2c",
     "mediawiki/dynamic-page-list": "dev-master",
