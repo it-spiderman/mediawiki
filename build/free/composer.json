@@ -495,7 +495,7 @@
     "mediawiki/blue-spice-extensions": "dev-7f907db",
     "mediawiki/blue-spice-foundation": "dev-92a5e1e",
     "mediawiki/blue-spice-ldap-authentication-connector": "dev-37cd2ec",
-    "mediawiki/blue-spice-user-merge-connector": "dev-REL1_27",
+    "mediawiki/blue-spice-user-merge-connector": "dev-3b9b1d0",
     "mediawiki/category-tree": "dev-b454f2c",
     "mediawiki/dynamic-page-list": "dev-master",
     "mediawiki/echo": "dev-b87fa2f",
