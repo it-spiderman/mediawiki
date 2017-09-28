@@ -470,22 +470,6 @@
       }
     }
 
-  }, {
-    "type": "package",
-    "package":{
-      "name": "mediawiki/blue-spice-tag-cloud",
-    	"type": "mediawiki-extension",
-      "version": "dev-c8129fb086d8f1399c43829ed853d86fb6ec596a",
-    	"require": {
-    		"composer/installers": "~1.0"
-    	},
-      "source":{
-        "url": "git@gitlab.hallowelt.com:BlueSpice/mediawiki-extensions-bluespicetagcloud.git",
-        "type": "git",
-        "reference": "c8129fb086d8f1399c43829ed853d86fb6ec596a"
-      }
-    }
-
   }],
   "require": {
     "mediawiki/arrays": "dev-ead7f94",
